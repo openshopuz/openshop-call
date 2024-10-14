@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "sip.js": "^0.15.11"
+  }
+}

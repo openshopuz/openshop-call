@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "files.exclude": {
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  }
+}

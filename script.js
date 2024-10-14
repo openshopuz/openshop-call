@@ -6,10 +6,10 @@ const statusDiv = document.getElementById('status');
 
 // SIP mijozini yaratish
 const userAgent = new SIP.UA({
-  uri: 'sip:100@call.openshop.uz',
-  password: 'open@123',
+  uri: 'sip:170@call.openshop.uz',
+  password: 'Open@7',
   transportOptions: {
-    wsServers: 'wss://call.openshop.uz:5061/ws', // yoki 'udp://call.openshop.uz:5060'
+    wsServers: 'wss://call.openshop.uz:5060/ws', // yoki 'udp://call.openshop.uz:5060'
   },
   register: true
 });
