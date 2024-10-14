@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SIP mijoz</title>
+  <script src="https://sipjs.com/download/sip-0.18.7.js"></script>
+  <script src="script.js"></script>
+  <style>
+    /* Qo'shimcha stillar */
+    body {
+      font-family: sans-serif;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #status {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>SIP mijoz</h1>
+    <input type="text" id="phoneNumber" placeholder="Raqamni kiriting">
+    <button id="callButton">Qo'ng'iroq qilish</button>
+    <button id="answerButton" disabled>Javob berish</button>
+    <button id="hangupButton" disabled>Qo'ng'iroqni tugatish</button>
+    <div id="status"></div>
+  </div>
+</body>
+</html>
